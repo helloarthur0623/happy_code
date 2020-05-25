@@ -8,12 +8,12 @@ headers = {
 'User-Agent' : 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'
 }
 
-# 爬取0-I個表格 後面加引數時檔案會以bs4匯出 即可進行第二次SELECT
+#先建立好title list
 column_list = ['date','time','park','fightteam1','fightteam2','weather1','weather2','weather3','temp1','temp2','temp3'\
 ,'feel1','feel2','feel3','precip1','precip2','precip3','speed1','speed2','speed3'\
 ,'dir1','dir2','dir3','PA', 'wOBA', 'BA', 'OBP', 'SLG', 'H', '1B', '2B', '3B', 'HR', 'RBI', 'BB', 'IBB', 'HBP',\
 'SO', 'SAC', 'SF', 'GIDP', 'GROUND', 'LINE', 'POP', 'FLY',]
-
+#要爬的日期網址
 url = 'https://swishanalytics.com/mlb/weather?date=2014-08-30'
 for aa in range (0, 1):
 
@@ -26,18 +26,17 @@ for aa in range (0, 1):
 
     games_in_a_day = []
     for i in range(0,50):
+        # 讓他爬取同標籤之標格，利用try except來跳過低於迴圈範圍的錯誤
         try:
             games_in_one_row=[]
             title = soup.select('div[class="row overall-account-margin"]')[i]
             fight_date = soup.select('small[class="lato mar-0 text-muted"]')[0]
             fight_dateee = fight_date.text
             fight_datee = fight_dateee.replace('GO TO TODAY', '')
-            print(fight_datee)
             pa = parse(fight_datee)
             Fight_Date = pa.strftime('%Y-%m-%d')
-            print(Fight_Date)
             games_in_one_row.append(Fight_Date)
-            # print(games_in_one_row)
+
 
 
             # print(title) 表格之標籤
