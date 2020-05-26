@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73ad8ca9-7cdc-4698-bca0-b279db4995f2" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,21 +13,15 @@
   </component>
   <component name="ProjectId" id="1cNbvSo57oXeySCfY7Cv7cnubz8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../cmder/vendor/git-for-windows/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,10 +41,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="721" y="270" key="FileChooserDialogImpl" timestamp="1590494806337">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="270" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590494806337" />
+    <state x="442" y="147" key="SettingsEditor" timestamp="1590494808713">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="442" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590494808713" />
+    <state x="647" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1590494522764">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="647" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590494522764" />
   </component>
 </project>
